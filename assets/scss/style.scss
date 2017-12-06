@@ -1,9 +1,5 @@
-@import "assets/bootstrap/bootstrap-grid.css";
-@import "assets/bootstrap/bootstrap-grid.min.css";
-@import "assets/bootstrap/bootstrap-reboot.css";
-@import "assets/bootstrap/bootstrap-reboot.min.css";
-@import "assets/bootstrap/bootstrap.css";
-@import "assets/bootstrap/bootstrap.min.css";
+// Apprendre Sass
+//https://gist.github.com/pixeline/dab8a29566b994453b8c681ed2b7ff2a
 
 $fonttitle: Pacifico, Sans Serif !important;
 $fontcontent: 'Fugaz One', Sans Serif !important;
@@ -22,6 +18,8 @@ nav{
 		color: #fff !important;
 		padding: 0 30px 0 30px;
 	}
+
+	// les liens
 
 	ul{
 		margin: 0 auto;
