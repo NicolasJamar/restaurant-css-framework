@@ -1,10 +1,21 @@
+@import url(assets/bootstrap/bootstrap-grid.css);
+@import url(assets/bootstrap/bootstrap-grid.min.css);
+@import url(assets/bootstrap/bootstrap-reboot.css);
+@import url(assets/bootstrap/bootstrap-reboot.min.css);
+@import url(assets/bootstrap/bootstrap.css);
+@import url(assets/bootstrap/bootstrap.min.css);
 nav {
   background-color: rgba(0, 0, 0, 0.2); }
+  nav span {
+    font-family: Pacifico, Sans Serif !important;
+    font-size: 50px !important;
+    color: #fff !important;
+    padding: 0 30px 0 30px; }
+  nav ul {
+    margin: 0 auto; }
   nav a {
     color: #fff !important;
-    padding: 15px !important;
+    padding: 15px 25px !important;
     border: 1px solid; }
-  nav span {
-    color: #fff !important; }
 
 /*# sourceMappingURL=style.css.map */
