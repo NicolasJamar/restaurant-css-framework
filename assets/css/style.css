@@ -26,8 +26,15 @@ nav {
   background-image: url(../img/plats2.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto; }
-
-.jumbotron h1, p {
-  margin: auto; }
+  .jumbotron h1, .jumbotron p {
+    text-align: center; }
+  .jumbotron h1 {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    width: 90%;
+    -webkit-clip-path: polygon(25% 0%, 75% 0%, 80% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 75% 0%, 80% 50%, 75% 100%, 0% 100%); }
+  .jumbotron .container {
+    margin-top: 15%; }
 
 /*# sourceMappingURL=style.css.map */
