@@ -4,32 +4,63 @@
 $fonttitle: Pacifico, Sans Serif !important;
 $fontcontent: 'Fugaz One', Sans Serif !important;
 
+h1{
+	color: #fff !important;
+	font:{
+		family: $fonttitle;
+	}
+}
+
+
 // NAVBAR
 
 nav{
 	background-color: rgba(0,0,0, 0.2);
+	float: left;
+	width: 100%;
 	
 	// le titre
 	span{
 		font:{
 			family: $fonttitle;
-			size: 50px !important;
+			size: 35px !important;
 		}
 		color: #fff !important;
-		padding: 0 30px 0 30px;
+		padding: 0 30px 0 30px !important;
 	}
 
 	// les liens
 
 	ul{
-		margin: 0 auto;
+		margin: 0 5% 0 30%;
 	}
 
 	a{
 		color: #fff !important;
 		padding: 15px 25px!important;
-		border: 1px solid;
+		font:{
+			family: $fontcontent;
+			// weight: bold;
+		}
+
+		&:hover{
+			background-color: rgba(0,0,0, 0.5);
+			transition: 1s ease;
+		}
 	}
 }
 
+// JUMBONTRON
 
+.jumbotron{
+	height: 550px;
+	background:{
+		image: url(../img/plats2.jpg);
+		repeat: no-repeat;
+		size: 100% auto;
+	}
+}
+
+.jumbotron h1, p{
+	margin: auto;
+}
