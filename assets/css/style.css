@@ -6,11 +6,13 @@ nav {
   background-color: rgba(0, 0, 0, 0.3);
   float: left;
   width: 100%; }
-  nav span {
+  nav h2 {
     font-family: Pacifico, Sans Serif !important;
     font-size: 35px !important;
     color: #fff !important;
     padding: 0 30px 0 30px !important; }
+  nav span {
+    color: #1B5E20; }
   nav ul {
     margin: 0 5% 0 30%; }
   nav a {
@@ -40,6 +42,9 @@ nav {
     clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%); }
   .jumbotron .container {
     margin-top: 15%; }
+  .jumbotron span {
+    font-weight: bold;
+    color: #1B5E20; }
 
 @media (max-width: 767px) {
   h1 {
