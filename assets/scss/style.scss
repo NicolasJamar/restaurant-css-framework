@@ -74,15 +74,25 @@ nav{
 	}
 
 	h1{
-				background-color: $colorbanner;
+		background-color: $colorbanner;
 		margin: 0 auto;
 		width: 80%;
 		
--webkit-clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);
-clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);	}
+		-webkit-clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);
+		clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);	
+		
+		
+	
+	}
+
 
 	.container{
 		margin-top: 15%;
 	}
 }
 
+@media (max-width: 767px) {
+    	h1{font-size: 3rem !important;
+    		width: 100% !important;
+    	}
+}
