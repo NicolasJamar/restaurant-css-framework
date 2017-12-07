@@ -4,6 +4,8 @@
 $fonttitle: Pacifico, Sans Serif !important;
 $fontcontent: 'Fugaz One', Sans Serif !important;
 
+$colorbanner: rgba(0,0,0, 0.3);
+
 h1{
 	color: #fff !important;
 	font:{
@@ -15,7 +17,7 @@ h1{
 // NAVBAR
 
 nav{
-	background-color: rgba(0,0,0, 0.2);
+	background-color: $colorbanner;
 	float: left;
 	width: 100%;
 	
@@ -40,13 +42,20 @@ nav{
 		padding: 15px 25px!important;
 		font:{
 			family: $fontcontent;
-			// weight: bold;
 		}
 
 		&:hover{
 			background-color: rgba(0,0,0, 0.5);
 			transition: 1s ease;
 		}
+	}
+
+	.navbar-collapse{
+		z-index: 50;
+	}
+
+	.navbar-toggler-icon{
+		background-color: #fff !important;
 	}
 }
 
@@ -65,13 +74,12 @@ nav{
 	}
 
 	h1{
-				background-color: rgba(0,0,0, 0.2);
+				background-color: $colorbanner;
 		margin: 0 auto;
-		width: 90%;
+		width: 80%;
 		
--webkit-clip-path: polygon(25% 0%, 75% 0%, 80% 50%, 75% 100%, 0% 100%);
-clip-path: polygon(25% 0%, 75% 0%, 80% 50%, 75% 100%, 0% 100%);
-	}
+-webkit-clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);
+clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);	}
 
 	.container{
 		margin-top: 15%;
