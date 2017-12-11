@@ -21,6 +21,9 @@ h1{
 	}
 }
 
+a{
+	text-decoration: none !important;
+}
 
 // NAVBAR
 
@@ -132,8 +135,11 @@ nav{
 		margin-right: 5px;
 	}
 
-	button{
+
+	a{
 		margin: 10px auto;
+		text-align: center;
+		display: block;
 	}
 
 }

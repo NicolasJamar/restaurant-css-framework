@@ -4,6 +4,9 @@ h1 {
   h1 .colortocito {
     color: #64DD17; }
 
+a {
+  text-decoration: none !important; }
+
 nav {
   background-color: rgba(0, 0, 0, 0.5);
   float: left;
@@ -64,8 +67,10 @@ nav {
     list-style-type: none; }
   .panel i {
     margin-right: 5px; }
-  .panel button {
-    margin: 10px auto; }
+  .panel a {
+    margin: 10px auto;
+    text-align: center;
+    display: block; }
 
 @media (max-width: 940px) {
   nav h2 {
