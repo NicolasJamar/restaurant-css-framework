@@ -4,13 +4,17 @@
 $fonttitle: Pacifico, Sans Serif !important;
 $fontcontent: 'Fugaz One', Sans Serif !important;
 
-$colorbanner: rgba(0,0,0, 0.3);
-$colortocito : #1B5E20;
+$colorbanner: rgba(0,0,0, 0.5);
+$colortocito : #64DD17;
 
 h1{
 	color: #fff !important;
 	font:{
 		family: $fonttitle;
+	}
+
+	.colortocito{
+		color: $colortocito;
 	}
 }
 
@@ -95,10 +99,22 @@ nav{
 		font-weight: bold;
 		color: $colortocito;
 	}
+
+	.lead{
+		color: #fff;
+		font-family: $fontcontent;
+		background-color: $colorbanner;
+		width: 30%;
+		margin: 5% auto;
+	}
 }
 
 @media (max-width: 767px) {
     	h1{font-size: 3rem !important;
     		width: 100% !important;
+    	}
+
+    	p{
+    		font-size: 1rem !important;
     	}
 }
