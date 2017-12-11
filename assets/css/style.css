@@ -54,7 +54,7 @@ nav {
     width: 30%;
     margin: 5% auto; }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 3rem !important;
     width: 100% !important;
