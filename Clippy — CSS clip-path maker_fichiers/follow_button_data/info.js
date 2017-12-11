@@ -1,1 +1,0 @@
-/**/__twttr.setFollowersCountAndFollowing([{"following":false,"id":"242535849","screen_name":"bennettfeely","name":"Bennett Feely","protected":false,"followers_count":4048,"formatted_followers_count":"4,048 followers","age_gated":false}]);
