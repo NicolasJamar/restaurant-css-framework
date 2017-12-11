@@ -35,6 +35,8 @@ nav {
     z-index: 3; }
   nav .navbar-toggler-icon {
     background-color: #fff !important; }
+  nav #navbarSupportedContent ul {
+    text-align: center; }
 
 .jumbotron {
   height: 50%;
@@ -61,7 +63,7 @@ nav {
     margin: 5% auto; }
 
 #panels {
-  margin-bottom: 10%; }
+  margin-bottom: 5%; }
 
 .panel {
   font-family: "Fugaz One", Sans Serif !important; }

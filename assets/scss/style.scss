@@ -58,6 +58,7 @@ nav{
 		width: 100%;
 	}
 
+	
 	a{
 		color: #fff !important;
 		padding: 13px 20px!important;
@@ -77,6 +78,12 @@ nav{
 
 	.navbar-toggler-icon{
 		background-color: #fff !important;
+	}
+
+	#navbarSupportedContent{
+		ul{
+		text-align: center;
+		}
 	}
 }
 
@@ -123,7 +130,7 @@ nav{
 // PANELS
 
 #panels{
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .panel{
