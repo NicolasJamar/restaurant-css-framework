@@ -7,6 +7,9 @@ $fontcontent: 'Fugaz One', Sans Serif !important;
 $colorbanner: rgba(0,0,0, 0.5);
 $colortocito : #64DD17;
 
+
+
+
 h1{
 	color: #fff !important;
 	font:{
@@ -43,12 +46,14 @@ nav{
 	// les liens
 
 	ul{
-		margin: 0 5% 0 30%;
+		
+		justify-content :flex-end;
+		width: 100%;
 	}
 
 	a{
 		color: #fff !important;
-		padding: 15px 25px!important;
+		padding: 13px 20px!important;
 		font:{
 			family: $fontcontent;
 		}
@@ -60,7 +65,7 @@ nav{
 	}
 
 	.navbar-collapse{
-		z-index: 50;
+		z-index: 3;
 	}
 
 	.navbar-toggler-icon{
@@ -96,7 +101,6 @@ nav{
 	}
 
 	span{
-		font-weight: bold;
 		color: $colortocito;
 	}
 
@@ -109,11 +113,17 @@ nav{
 	}
 }
 
-@media (max-width: 767px) {
-
-		.jumbotron{
-			
+@media(max-width: 940px){
+	nav{
+		h2{
+			font-size : 25px !important;
 		}
+		
+	}
+}
+
+
+@media (max-width: 767px) {
 
     	h1{
     		font-size: 3rem !important;
@@ -128,14 +138,7 @@ nav{
 
     	nav{
 			margin-bottom: 3%;
-
-    		li{
-    			margin-left:70%;
-    		}
-
     	}
 
-    	#navbarSupportedContent{
-    		
-    	}
+    	
 }

@@ -16,16 +16,17 @@ nav {
   nav span {
     color: #64DD17; }
   nav ul {
-    margin: 0 5% 0 30%; }
+    justify-content: flex-end;
+    width: 100%; }
   nav a {
     color: #fff !important;
-    padding: 15px 25px !important;
+    padding: 13px 20px !important;
     font-family: "Fugaz One", Sans Serif !important; }
     nav a:hover {
       background-color: rgba(0, 0, 0, 0.5);
       transition: 1s ease; }
   nav .navbar-collapse {
-    z-index: 50; }
+    z-index: 3; }
   nav .navbar-toggler-icon {
     background-color: #fff !important; }
 
@@ -45,7 +46,6 @@ nav {
   .jumbotron .container {
     margin-top: 15%; }
   .jumbotron span {
-    font-weight: bold;
     color: #64DD17; }
   .jumbotron .lead {
     color: #fff;
@@ -54,6 +54,9 @@ nav {
     width: 30%;
     margin: 5% auto; }
 
+@media (max-width: 940px) {
+  nav h2 {
+    font-size: 25px !important; } }
 @media (max-width: 767px) {
   h1 {
     font-size: 3rem !important;
@@ -65,8 +68,6 @@ nav {
     font-size: 1rem !important; }
 
   nav {
-    margin-bottom: 3%; }
-    nav li {
-      margin-left: 70%; } }
+    margin-bottom: 3%; } }
 
 /*# sourceMappingURL=style.css.map */
