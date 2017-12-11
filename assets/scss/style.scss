@@ -71,11 +71,11 @@ nav{
 // JUMBONTRON
 
 .jumbotron{
-	height: 550px;
+	height: 50%;
 	background:{
 		image: url(../img/plats2.jpg);
 		repeat: no-repeat;
-		size: 100% auto;
+		size: cover;
 	}
 
 	h1, p{
@@ -109,12 +109,33 @@ nav{
 	}
 }
 
-@media (max-width: 767px) {
-    	h1{font-size: 3rem !important;
+@media (max-width: 768px) {
+
+		.jumbotron{
+			
+		}
+
+    	h1{
+    		font-size: 3rem !important;
     		width: 100% !important;
+    		clear: both;
+    		position: relative;
     	}
 
     	p{
     		font-size: 1rem !important;
+    	}
+
+    	nav{
+			margin-bottom: 3%;
+
+    		li{
+    			margin-left:70%;
+    		}
+
+    	}
+
+    	#navbarSupportedContent{
+    		
     	}
 }

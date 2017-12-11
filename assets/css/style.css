@@ -30,10 +30,10 @@ nav {
     background-color: #fff !important; }
 
 .jumbotron {
-  height: 550px;
+  height: 50%;
   background-image: url(../img/plats2.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto; }
+  background-size: cover; }
   .jumbotron h1, .jumbotron p {
     text-align: center; }
   .jumbotron h1 {
@@ -54,12 +54,19 @@ nav {
     width: 30%;
     margin: 5% auto; }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 3rem !important;
-    width: 100% !important; }
+    width: 100% !important;
+    clear: both;
+    position: relative; }
 
   p {
-    font-size: 1rem !important; } }
+    font-size: 1rem !important; }
+
+  nav {
+    margin-bottom: 3%; }
+    nav li {
+      margin-left: 70%; } }
 
 /*# sourceMappingURL=style.css.map */
