@@ -1,1 +1,8 @@
 @import 'style.css';
+
+.jumbotron{
+	
+	background:{
+		image: url(../img/chair.jpeg) !important;
+	}
+}
