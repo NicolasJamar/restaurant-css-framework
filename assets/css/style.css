@@ -54,9 +54,25 @@ nav {
     width: 30%;
     margin: 5% auto; }
 
+.panel {
+  font-family: "Fugaz One", Sans Serif !important; }
+  .panel .panel-title {
+    border-bottom: 1px solid #64DD17;
+    color: #64DD17;
+    padding: 10px; }
+  .panel li {
+    list-style-type: none; }
+  .panel i {
+    margin-right: 5px; }
+  .panel button {
+    margin: 10px auto; }
+
 @media (max-width: 940px) {
   nav h2 {
-    font-size: 25px !important; } }
+    font-size: 25px !important; }
+  nav a {
+    padding-left: 0 !important;
+    padding-right: 10px !important; } }
 @media (max-width: 767px) {
   h1 {
     font-size: 3rem !important;
