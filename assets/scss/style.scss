@@ -25,6 +25,10 @@ a{
 	text-decoration: none !important;
 }
 
+p{
+	font-family: $fontcontent;
+}
+
 // NAVBAR
 
 nav{
@@ -118,6 +122,10 @@ nav{
 
 // PANELS
 
+#panels{
+	margin-bottom: 10%;
+}
+
 .panel{
 	font-family: $fontcontent;
 
@@ -143,6 +151,18 @@ nav{
 	}
 
 }
+
+// FOOTER
+
+footer{
+	// width: 100%;
+	background-color: $colorbanner;
+	color: #fff;
+	text-align: center;
+}
+
+
+// MEDIAQUERIES
 
 @media(max-width: 940px){
 	nav{
