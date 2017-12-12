@@ -1,5 +1,107 @@
+h1 {
+  color: #fff !important;
+  font-family: Pacifico, Sans Serif !important; }
+  h1 .colortocito {
+    color: #64DD17; }
+
+a {
+  text-decoration: none !important; }
+
+p {
+  font-family: "Fugaz One", Sans Serif !important; }
+
 nav {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff; }
+  background-color: rgba(0, 0, 0, 0.5);
+  float: left;
+  width: 100%; }
+  nav h2 {
+    font-family: Pacifico, Sans Serif !important;
+    font-size: 35px !important;
+    color: #fff !important;
+    padding: 0 30px 0 30px !important; }
+  nav span {
+    color: #000; }
+  nav ul {
+    justify-content: flex-end;
+    width: 100%; }
+  nav a {
+    color: #fff !important;
+    padding: 13px 20px !important;
+    font-family: "Fugaz One", Sans Serif !important; }
+    nav a:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: 1s ease; }
+  nav .navbar-collapse {
+    z-index: 3; }
+  nav .navbar-toggler-icon {
+    background-color: #fff !important; }
+  nav #navbarSupportedContent ul {
+    text-align: center; }
+
+.jumbotron {
+  height: 50%;
+  background-image: url(../img/plats2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .jumbotron h1, .jumbotron p {
+    text-align: center; }
+  .jumbotron h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    width: 80%;
+    -webkit-clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%); }
+  .jumbotron .container {
+    margin-top: 15%; }
+  .jumbotron span {
+    color: #64DD17; }
+  .jumbotron .lead {
+    color: #fff;
+    font-family: "Fugaz One", Sans Serif !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    margin: 5% auto; }
+
+#panels {
+  margin-bottom: 5%; }
+
+.panel {
+  font-family: "Fugaz One", Sans Serif !important; }
+  .panel .panel-title {
+    border-bottom: 1px solid #64DD17;
+    color: #64DD17;
+    padding: 10px; }
+  .panel li {
+    list-style-type: none; }
+  .panel i {
+    margin-right: 5px; }
+  .panel a {
+    margin: 10px auto;
+    text-align: center;
+    display: block; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center; }
+
+@media (max-width: 940px) {
+  nav h2 {
+    font-size: 25px !important; }
+  nav a {
+    padding-left: 0 !important;
+    padding-right: 10px !important; } }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 3rem !important;
+    width: 100% !important;
+    clear: both;
+    position: relative; }
+
+  p {
+    font-size: 1rem !important; }
+
+  nav {
+    margin-bottom: 3%; } }
 
 /*# sourceMappingURL=style.css.map */

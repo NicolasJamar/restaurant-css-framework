@@ -5,4 +5,11 @@
 	background-image: url("../img/tacos.jpg");
 }
 
+.page-item li{
+  color: #64DD17 !important;
+}
 
+img{
+  width: 110%;
+  height: 110%;
+}
