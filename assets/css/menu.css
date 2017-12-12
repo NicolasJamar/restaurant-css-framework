@@ -2,7 +2,6 @@
 
 .jumbotron{
 	
-	background:{
-		image: url(../img/chair.jpeg) !important;
-	}
+	background-image: url(../img/plats.jpeg) !important;
+	
 }
