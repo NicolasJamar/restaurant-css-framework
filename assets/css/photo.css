@@ -5,8 +5,14 @@
 	background-image: url("../img/tacos.jpg");
 }
 
-.page-item li{
-  color: #64DD17 !important;
+a.page-link{
+  color: #64DD17;
+  justify-content: center;
+}
+
+a.page-link:hover{
+  color:#fff;
+  background-color: #64DD17;
 }
 
 img{
