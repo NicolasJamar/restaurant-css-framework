@@ -3,6 +3,7 @@
 
 .jumbotron{
 	background-image: url("../img/tacos.jpg");
+	background-size: ;
 }
 
 a.page-link{
@@ -15,7 +16,51 @@ a.page-link:hover{
   background-color: #64DD17;
 }
 
-img{
-  width: 110%;
-  height: 110%;
+#gallery{
+	margin-bottom: 40px;
+}
+
+#gallery img{
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+}
+
+#gallery img:hover{
+	width: 103%;
+	height: 103%;
+	transition: 0.5s ease;
+
+}
+
+#gallery figcaption{
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Fugaz One', Sans Serif !important;
+	color: #fff;
+	background-color: #64DD17;
+	border-radius: 30px;
+}
+
+@media (max-width: 767px){
+	#gallery img{
+	  width: 55%;
+	  height: 85%;
+	  border-radius: 30px;
+	  display: block;
+	  margin: auto;
+	}
+
+	#gallery img:hover{
+	width: 55%;
+	height: 85%;
+	}
+
+	#gallery figcaption{
+	width: 55%;
+	display: block;
+    margin: 2% auto;
+	}
+
+
 }

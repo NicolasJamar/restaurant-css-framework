@@ -86,9 +86,9 @@ footer {
   text-align: center; }
 
 @media (max-width: 940px) {
-  nav h2 {
+  nav.navbar h2 {
     font-size: 25px !important; }
-  nav a {
+  nav.navbar a {
     padding-left: 0 !important;
     padding-right: 10px !important; } }
 @media (max-width: 767px) {
