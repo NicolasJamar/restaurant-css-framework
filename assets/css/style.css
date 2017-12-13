@@ -80,6 +80,11 @@ nav.navbar {
     text-align: center;
     display: block; }
 
+#map {
+  display: block;
+  height: 400px;
+  width: 100%; }
+
 footer {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
