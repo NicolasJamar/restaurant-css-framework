@@ -26,16 +26,8 @@ a.page-link:hover{
 	border-radius: 30px;
 }
 
-#gallery img:hover{
-	width: 103%;
-	height: 103%;
-	transition: 0.5s ease;
-
-}
-
 #gallery figcaption{
 	margin-top: 10px;
-	text-align: center;
 	font-family: 'Fugaz One', Sans Serif !important;
 	color: #fff;
 	background-color: #64DD17;
@@ -51,16 +43,9 @@ a.page-link:hover{
 	  margin: auto;
 	}
 
-	#gallery img:hover{
-	width: 55%;
-	height: 85%;
-	}
-
 	#gallery figcaption{
 	width: 55%;
 	display: block;
     margin: 2% auto;
 	}
-
-
 }
