@@ -29,7 +29,7 @@ nav.navbar {
     padding: 13px 20px !important;
     font-family: "Fugaz One", Sans Serif !important; }
     nav.navbar a:hover {
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: #64dd17;
       transition: 1s ease; }
   nav.navbar .navbar-collapse {
     z-index: 3; }

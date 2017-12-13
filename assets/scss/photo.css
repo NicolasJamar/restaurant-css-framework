@@ -6,14 +6,12 @@ nav.navbar {
   background-image: none;
   background-color: #fff !important;
   height: 0px; }
-  .jumbotron h1 {
-    background-color: #000;
-    width: 50%;
-    -webkit-clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);
-    clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%); }
 
 .jumbotron > .container {
   margin-top: 0%; }
+
+h1.jumbotron {
+  width: 50% !important; }
 
 a.page-link {
   color: #64DD17;
