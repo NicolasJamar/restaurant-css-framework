@@ -72,44 +72,53 @@
 	</header>
 <!-- End: JUMBOTRON -->
 <!-- PANELS -->
-	<main class="container" id="panels">
-		<div class="row justify-content-around">
-			<div class="col-md-4">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Discover our food</h3>
-					</div>
-					<div class="panel-body">
-						<ul>
-							<li><i class="fa fa-cutlery" aria-hidden="true"></i>
-							Tacos</li>
-							<li><i class="fa fa-cutlery" aria-hidden="true"></i>
-							Lomo Saltado</li>
-							<li><i class="fa fa-cutlery" aria-hidden="true"></i>
-							Ceviche de pescado</li>
-							<li><i class="fa fa-cutlery" aria-hidden="true"></i>
-							Chicharron</li>
-							<li><i class="fa fa-cutlery" aria-hidden="true"></i>
-							Causa de cangrejo</li>
-							<li><i class="fa fa-cutlery" aria-hidden="true"></i>
-							El anticucho</li>
-						</ul>
-						<a href="#"><button type="button" class="btn btn-warning btn-lg">Lets try...</button></a>
-					</div>
-				</div>
+<main class="container" id="panels">
+	<form>
+		<div class="form-row">
+			<div class="form-group col-md-6">
+				<label for="inputEmail4">Email</label>
+				<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
 			</div>
-			<div class="col-md-4">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">News</h3>
-					</div>
-					<div class="panel-body">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos doloribus ut dolorum dolor aut sed provident facere, excepturi autem quasi ullam officiis nam magni, cumque iusto at consequuntur hic architecto.
-					</div>
-				</div>
+			<div class="form-group col-md-6">
+				<label for="inputPassword4">Password</label>
+				<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
 			</div>
 		</div>
-	</main>
+		<div class="form-group">
+			<label for="inputAddress">Address</label>
+			<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+		</div>
+		<div class="form-group">
+			<label for="inputAddress2">Address 2</label>
+			<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+		</div>
+		<div class="form-row">
+			<div class="form-group col-md-6">
+				<label for="inputCity">City</label>
+				<input type="text" class="form-control" id="inputCity">
+			</div>
+			<div class="form-group col-md-4">
+				<label for="inputState">State</label>
+				<select id="inputState" class="form-control">
+					<option selected>Choose...</option>
+					<option>...</option>
+				</select>
+			</div>
+			<div class="form-group col-md-2">
+				<label for="inputZip">Zip</label>
+				<input type="text" class="form-control" id="inputZip">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="form-check">
+				<label class="form-check-label">
+					<input class="form-check-input" type="checkbox"> Check me out
+				</label>
+			</div>
+		</div>
+		<button type="submit" class="btn btn-primary">Sign in</button>
+	</form>
+</main>
 <!-- End: PANELS -->
 <!-- FOOTER -->
 	<footer class="container">
