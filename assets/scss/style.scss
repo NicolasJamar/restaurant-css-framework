@@ -148,13 +148,11 @@ nav.navbar{
 		margin-right: 5px;
 	}
 
-
 	a{
 		margin: 10px auto;
 		text-align: center;
 		display: block;
 	}
-
 }
 
 #map{
@@ -176,7 +174,7 @@ footer{
 
 // MEDIAQUERIES
 
-@media(max-width: 940px){
+@media(max-width: 940px) {
 	nav.navbar{
 		h2{
 			font-size : 25px !important;
@@ -185,7 +183,6 @@ footer{
 			padding-left: 0 !important;
 			padding-right: 10px !important;
 		}
-		
 	}
 }
 
@@ -193,8 +190,8 @@ footer{
 @media (max-width: 767px) {
 
     	h1{
-    		font-size: 3rem !important;
-    		width: 100% !important;
+    		font-size: 2rem !important;
+    		width: 90% !important;
     		clear: both;
     		position: relative;
     	}
@@ -206,5 +203,4 @@ footer{
     	nav{
 			margin-bottom: 3%;
     	}
-
 }
