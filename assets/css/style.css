@@ -4,6 +4,9 @@ h1 {
   h1 .colortocito {
     color: #64DD17; }
 
+h4 {
+  font-family: Pacifico, Sans Serif !important; }
+
 a {
   text-decoration: none !important; }
 
@@ -79,6 +82,13 @@ nav.navbar {
     margin: 10px auto;
     text-align: center;
     display: block; }
+
+#chevron {
+  color: #64DD17;
+  margin: 0 50%;
+  transition: 2s ease; }
+  #chevron i {
+    margin-bottom: 0.5em; }
 
 footer {
   background-color: rgba(0, 0, 0, 0.5);

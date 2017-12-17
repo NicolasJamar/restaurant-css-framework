@@ -42,6 +42,9 @@ nav.navbar {
     color: #fff;
     background-color: #64DD17; }
 
+#restos img {
+  height: 100%; }
+
 @media (max-width: 991px) {
   main, footer {
     max-width: 850px !important; }

@@ -19,6 +19,10 @@ h1{
 	}
 }
 
+h4{
+	font-family: $fonttitle;
+}
+
 a{
 	text-decoration: none !important;
 }
@@ -155,11 +159,14 @@ nav.navbar{
 	}
 }
 
-#map{
-	// display: block;
-	// height: 400px;
- //    width: 100%;
+#chevron{
+	color: $colortocito;
+	margin: 0 50%;
+	transition: 2s ease;
 
+	i{
+		margin-bottom: 0.5em;
+	}
 }
 
 // FOOTER
