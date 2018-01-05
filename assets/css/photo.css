@@ -38,9 +38,6 @@ nav.navbar {
   .page-link:hover {
     color: #fff !important;
     background-color: #64DD17 !important; }
-  .page-link:link {
-    color: #fff;
-    background-color: #64DD17; }
 
 #restos img {
   height: 100%; }

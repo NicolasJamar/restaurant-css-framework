@@ -13,6 +13,10 @@ a {
 p {
   font-family: "Fugaz One", Sans Serif !important; }
 
+button {
+  font-family: "Fugaz One", Sans Serif !important;
+  cursor: pointer; }
+
 nav.navbar {
   background-color: rgba(0, 0, 0, 0.5);
   float: left;
