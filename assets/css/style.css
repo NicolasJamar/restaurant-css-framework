@@ -1,8 +1,9 @@
 h1 {
   color: #fff !important;
   font-family: Pacifico, Sans Serif !important; }
-  h1 .colortocito {
-    color: #64DD17 !important; }
+
+.colortotico {
+  color: #64DD17 !important; }
 
 h4 {
   font-family: Pacifico, Sans Serif !important; }
@@ -26,8 +27,6 @@ nav.navbar {
     font-size: 35px !important;
     color: #fff !important;
     padding: 0 30px 0 30px !important; }
-  nav.navbar span {
-    color: #64DD17 !important; }
   nav.navbar ul {
     justify-content: flex-end;
     width: 100%; }
@@ -60,8 +59,6 @@ nav.navbar {
     clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%); }
   .jumbotron .container {
     margin-top: 15%; }
-  .jumbotron span {
-    color: #64DD17 !important; }
   .jumbotron .lead {
     color: #fff;
     font-family: "Fugaz One", Sans Serif !important;
@@ -103,6 +100,11 @@ nav.navbar {
 
 .badge {
   font-size: 1em !important; }
+
+h4 {
+  background-color: #000 !important;
+  color: #fff !important;
+  padding: 1rem; }
 
 footer {
   background-color: rgba(0, 0, 0, 0.5);

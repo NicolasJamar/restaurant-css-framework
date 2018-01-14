@@ -14,10 +14,12 @@ h1{
 		family: $fonttitle;
 	}
 
-	.colortocito{
+	
+}
+
+.colortotico{
 		color: $colortocito;
 	}
-}
 
 h4{
 	font-family: $fonttitle;
@@ -51,10 +53,6 @@ nav.navbar{
 		}
 		color: #fff !important;
 		padding: 0 30px 0 30px !important;
-	}
-
-	span{
-		color: $colortocito;
 	}
 
 	// les liens
@@ -121,10 +119,6 @@ nav.navbar{
 		margin-top: 15%;
 	}
 
-	span{
-		color: $colortocito;
-	}
-
 	.lead{
 		color: #fff;
 		font-family: $fontcontent;
@@ -189,6 +183,13 @@ nav.navbar{
 .badge{
 		font-size: 1em !important;
 	}
+
+//Page RESTAURANTS
+h4{
+	background-color: #000 !important;
+	color : #fff !important;
+	padding : 1rem;
+}
 
 
 // FOOTER
