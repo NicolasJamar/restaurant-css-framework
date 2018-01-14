@@ -2,7 +2,7 @@ h1 {
   color: #fff !important;
   font-family: Pacifico, Sans Serif !important; }
   h1 .colortocito {
-    color: #64DD17; }
+    color: #64DD17 !important; }
 
 h4 {
   font-family: Pacifico, Sans Serif !important; }
@@ -27,7 +27,7 @@ nav.navbar {
     color: #fff !important;
     padding: 0 30px 0 30px !important; }
   nav.navbar span {
-    color: #64DD17; }
+    color: #64DD17 !important; }
   nav.navbar ul {
     justify-content: flex-end;
     width: 100%; }
@@ -61,7 +61,7 @@ nav.navbar {
   .jumbotron .container {
     margin-top: 15%; }
   .jumbotron span {
-    color: #64DD17; }
+    color: #64DD17 !important; }
   .jumbotron .lead {
     color: #fff;
     font-family: "Fugaz One", Sans Serif !important;
@@ -75,8 +75,8 @@ nav.navbar {
 .panel {
   font-family: "Fugaz One", Sans Serif !important; }
   .panel .panel-title {
-    border-bottom: 1px solid #64DD17;
-    color: #64DD17;
+    border-bottom: 1px solid #64DD17 !important;
+    color: #64DD17 !important;
     padding: 10px; }
   .panel li {
     list-style-type: none; }
@@ -88,7 +88,7 @@ nav.navbar {
     display: block; }
 
 #chevron {
-  color: #64DD17;
+  color: #64DD17 !important;
   margin: 0 50%;
   transition: 2s ease; }
   #chevron i {
@@ -96,6 +96,10 @@ nav.navbar {
 
 .list-group {
   font-family: "Fugaz One", Sans Serif !important; }
+
+.titles-menu {
+  background-color: #64DD17 !important;
+  color: #fff; }
 
 .badge {
   font-size: 1em !important; }
