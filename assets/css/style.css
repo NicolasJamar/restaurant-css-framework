@@ -94,6 +94,12 @@ nav.navbar {
   #chevron i {
     margin-bottom: 0.5em; }
 
+.list-group {
+  font-family: "Fugaz One", Sans Serif !important; }
+
+.badge {
+  font-size: 1em !important; }
+
 footer {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
